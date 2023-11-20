@@ -45,6 +45,7 @@ no enable secret
 ```
 > wr
 # do wr
+# copy running-config startup-config
 ```
 ##### See RAM and NVRAM Configs And Clear Them
 ```
@@ -59,4 +60,9 @@ conf t
 username reza secret 123
 line console 0
 login local
+```
+
+##### See Mac Address Of Connected Devices
+```
+show mac address-table dynamic
 ```
