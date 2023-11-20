@@ -36,6 +36,11 @@ name cloud
 int vlan 10
 ip add 10.10.10.10 255.0.0.0
 ```
+##### Group Interface By Range And Config Together
+```
+[no] interface range fa0/15 - 16
+interface range fa0/15 , 11 , 2
+```
 ##### ‌Ban Special Vlan For Broadcasting
 ```
 switchport trunk allowed vlan remove/[add] 20
@@ -47,6 +52,11 @@ vtp domain cloud
 vtp password 123
 ```
 ##### Change default vtp type(server to client)
+###### VTP Modes Is Server | Client | Transparent
 ```
 vtp mode client
+```
+##### Set Password By Encryption
+```
+service password-encryption
 ```
