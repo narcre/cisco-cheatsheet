@@ -14,6 +14,7 @@ interface FastEthernet0/1
 ##### Config Port Type (Access Or Trunk)
 ```
 interface mode access
+switchport mode access
 switchport mode trunk
 ```
 ##### Create Vlan
