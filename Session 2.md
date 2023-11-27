@@ -57,8 +57,9 @@ write erase
 ##### Set UserName And Password
 ```
 conf t
+line vty 0 4 #or 5 15
 username reza secret 123
-line console 0
+#line console 0
 login local
 ```
 
