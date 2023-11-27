@@ -61,3 +61,9 @@ vtp mode client
 ```
 service password-encryption
 ```
+
+##### Loopback interface 
+```
+interface loop 0
+ip add 10.10.10.100 255.0.0.0
+```
