@@ -28,4 +28,6 @@ int fa0/1
 switchport port-security  mac-address sticky
 switchport port-security maximum 1
 switchport port-security violation protect #restrict | shutdown
+show port-security int fa0/1
+sh mac-address-table
 ```
