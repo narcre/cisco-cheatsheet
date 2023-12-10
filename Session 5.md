@@ -17,3 +17,15 @@ switchport voice vlan 11
 conf t
 spanning-tree mode rapid-pvst
 ```
+```
+sh spanning-tree summary
+spanning-tree bpdugard enable
+```
+##### port security
+```
+conf t
+int fa0/1
+switchport port-security  mac-address sticky
+switchport port-security maximum 1
+switchport port-security violation protect #restrict | shutdown
+```
