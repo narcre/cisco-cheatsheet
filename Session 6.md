@@ -49,4 +49,8 @@ switchport mode trunk
 channel-group 1 mode desirable # auto
 sh etherchannel summary
 sh ip interface brief #port-channel1 Added
+
+#test
+int fa/01
+sh
 ```
