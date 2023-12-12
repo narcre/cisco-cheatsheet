@@ -24,22 +24,18 @@ switchport access vlan 10
 exit
 int vlan 10
 ip address dhcp
-
-
-
+```
+##### cdp
+```
 sh cdp neighbors detail
 int fastEthernet 0/2
 no cdp enable
-```
 
-##### on all
-```
 no cdp run
 do sh cdp
 cdp run
-```
-##### see client
-```
+
+# see client
 do sh arp
 ```
 ##### aggregate and ether channel
