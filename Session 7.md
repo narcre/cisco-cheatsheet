@@ -16,6 +16,7 @@ ip address 10.10.10.1 255.255.255.0
 switchport trunk encapsulation dot1q
 switchport mode trunk
 ip routing
+no switch port  # for set ip on port
 ```
 
 ```
